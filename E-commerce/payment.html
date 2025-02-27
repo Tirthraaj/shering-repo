@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-commerce</title>
+      <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- <header>
+        <nav class="navbar">
+            <div class="logo">E-Shop</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+                <li><a href="signin.html" class="btn">Sign In</a></li>
+                <li><a href="signup.html" class="btn">Sign Up</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-commerce</title>
+      <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles/payment.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tirth's shop</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signin.html">Your Accaunt</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price (₹)</th>
+            </tr>
+        </thead>
+        <tbody id="payment-items">
+            <!-- Items will be inserted dynamically -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong id="total-price">₹0.00</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <div class="payment-container">
+        <h2>Confirm Your Order</h2>
+    
+        <!-- Table to Show Cart Items & Total -->
+        <table id="bill-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price (₹)</th>
+                </tr>
+            </thead>
+            <tbody id="bill-body">
+                <!-- Dynamically filled via JS -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Total Amount:</strong></td>
+                    <td><strong id="final-total">₹0</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    
+        <!-- Payment Options -->
+        <label><input type="radio" name="payment-method" value="UPI"> UPI</label>
+        <label><input type="radio" name="payment-method" value="Net Banking"> Net Banking</label>
+        <label><input type="radio" name="payment-method" value="COD"> Cash on Delivery</label>
+    
+        <!-- Buttons -->
+        <button id="confirm-btn" onclick="confirmOrder()">Pay ₹0</button>
+        <button id="download-bill-btn" onclick="downloadBill()">Download Bill</button>
+    </div>
+    
+
+    <script src="scripts/payment.js"></script>
+</body>
+</html>

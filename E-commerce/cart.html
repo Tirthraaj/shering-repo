@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tirth's shop</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signin.html">Your Accaunt</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <main>
+        <h2>Shopping Cart 🛒</h2>
+        <div id="cart-container">
+            <p id="empty-cart">Your cart is empty. Add some items!</p>
+            <div id="cart-items"></div>
+            <button id="checkout-btn" onclick="checkout()">Proceed to Payment</button>
+        </div>
+    </main>
+
+    <script src="scripts/cart.js"></script>
+</body>
+</html>

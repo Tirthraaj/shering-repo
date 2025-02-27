@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Successful</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        .success-container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2ecc71;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .order-id {
+            font-weight: bold;
+            color: #3498db;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .home-btn {
+            background-color: #3498db;
+            color: white;
+        }
+        .home-btn:hover {
+            background-color: #2980b9;
+        }
+        .download-btn {
+            background-color: #27ae60;
+            color: white;
+        }
+        .download-btn:hover {
+            background-color: #219150;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="success-container">
+        <h2>🎉 Order Placed Successfully!</h2>
+        <p>Thank you, <span id="customer-name"></span>, for your order!</p>
+        <p>Your Order ID: <span class="order-id" id="order-id"></span></p>
+        <p>Total Amount: ₹<span id="total-amount">0</span></p>
+        
+        <button class="btn download-btn" onclick="downloadInvoice()">Download Invoice</button>
+        <br>
+        <button class="btn home-btn" onclick="goToHome()">Return to Home</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const userData = JSON.parse(localStorage.getItem("loggedInUser")) || {};
+            document.getElementById("customer-name").textContent = userData.email || "Guest";
+            
+            const orderId = "ORD" + Math.floor(100000 + Math.random() * 900000); // Generate random order ID
+            document.getElementById("order-id").textContent = orderId;
+
+            const totalAmount = localStorage.getItem("cartTotal") || "0";
+            document.getElementById("total-amount").textContent = totalAmount;
+        });
+
+        function downloadInvoice() {
+            alert("Invoice download feature coming soon!"); // Placeholder for now
+        }
+
+        function goToHome() {
+            window.location.href = "index.html"; // Redirect to homepage
+        }
+    </script>
+
+</body>
+</html>

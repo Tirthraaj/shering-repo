@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-commerce</title>
+      <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/style.css">
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tirth's shop</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signin.html">Your Accaunt</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+    <link rel="stylesheet" href="styles/products.css">
+</head>
+    <section>
+        <h2>Welcome to Our Online Store</h2>
+        <p>Browse our latest products and shop with confidence.</p>
+    </section>
+
+    <!-- Category Buttons -->
+    <div id="category-buttons">
+        <button class="category-btn" onclick="loadProducts('men')">
+            <img src="images/wo.jpeg" alt="Men's Clothing">
+            <span>Men's Clothing</span>
+        </button>
+        <button class="category-btn" onclick="loadProducts('women')">
+            <img src="images/wo.jpg" alt="Women's Clothing">
+            <span>Women's Clothing</span>
+        </button>
+        <button class="category-btn" onclick="loadProducts('accessories')">
+            <img src="images/ass.jpg" alt="Accessories">
+            <span>Accessories</span>
+        </button>
+    </div>
+
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Your one-stop shop for the best products at the best prices.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <li><a href="#" class="social-icon">Facebook</a></li>
+            <li><a href="#" class="social-icon">Twitter</a></li>
+            <li><a href="#" class="social-icon">Instagram</a></li>
+        </div>
+    </div>
+
+    <p class="footer-bottom">&copy; 2025 E-commerce Store | All Rights Reserved</p>
+</footer>
+
+
+    <script src="scripts/script.js"></script>
+        <script src="scripts/products.js"></script>
+</body>
+</html>

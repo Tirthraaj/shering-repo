@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>Silk Kurta Pajama</name>
+        <price>2500</price>
+        <description>Traditional silk kurta with pajama, perfect for festive occasions.</description>
+        <image>images/wo.jpeg</image>
+    </product>
+    <product>
+        <name>Nehru Jacket</name>
+        <price>5000</price>
+        <description>Classic Nehru jacket to pair with kurtas or shirts.</description>
+        <image>images/nehru.jpg</image>
+    </product>
+    <product>
+        <name>Pathani Suit</name>
+        <price>3500</price>
+        <description>Elegant and comfortable Pathani suit, perfect for ethnic wear.</description>
+        <image>images/pathani.jpg</image>
+    </product>
+    <product>
+        <name>Jodhpuri Suit</name>
+        <price>7500</price>
+        <description>Royal Jodhpuri suit with exquisite embroidery and tailored fit.</description>
+        <image>images/jodhpuri.jpg</image>
+    </product>
+    <product>
+        <name>Dhoti Kurta</name>
+        <price>2200</price>
+        <description>Traditional cotton dhoti with a stylish kurta for cultural events.</description>
+        <image>images/dhoti_kurta.jpg</image>
+    </product>
+    <product>
+        <name>Designer Sherwani</name>
+        <price>12000</price>
+        <description>Luxurious designer sherwani with intricate embroidery for weddings.</description>
+        <image>images/sherwani.jpg</image>
+    </product>
+    <product>
+        <name>Velvet Blazer</name>
+        <price>8500</price>
+        <description>Rich velvet blazer for a perfect Indo-Western look.</description>
+        <image>images/velvet_blazer.jpg</image>
+    </product>
+    <product>
+        <name>Indo-Western Kurta</name>
+        <price>4500</price>
+        <description>Stylish Indo-Western kurta with a modern touch for special occasions.</description>
+        <image>images/indo_western.jpg</image>
+    </product>
+</products>

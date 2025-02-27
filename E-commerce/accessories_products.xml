@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>Kolhapuri Chappal</name>
+        <price>19.99</price>
+        <description>Handcrafted Kolhapuri chappals for a traditional look.</description>
+        <image>images/accessory_kolhapuri.jpeg</image>
+    </product>
+    <product>
+        <name>Kundan Jewelry Set</name>
+        <price>79.99</price>
+        <description>Exquisite Kundan necklace with matching earrings.</description>
+        <image>images/accessory_kundan.jpeg</image>
+    </product>
+    <product>
+        <name>Jodhpuri Safa</name>
+        <price>29.99</price>
+        <description>Royal Rajasthani turban for weddings and traditional occasions.</description>
+        <image>images/accessory_safa.jpeg</image>
+    </product>
+    <product>
+        <name>Meenakari Bangles</name>
+        <price>39.99</price>
+        <description>Colorful Meenakari bangles crafted with intricate designs.</description>
+        <image>images/accessory_meenakari.jpeg</image>
+    </product>
+    <product>
+        <name>Oxidized Silver Earrings</name>
+        <price>24.99</price>
+        <description>Beautifully designed oxidized silver jhumkas.</description>
+        <image>images/accessory_silver_earrings.jpg</image>
+    </product>
+    <product>
+        <name>Banarasi Dupatta</name>
+        <price>49.99</price>
+        <description>Luxurious Banarasi silk dupatta with golden zari work.</description>
+        <image>images/accessory_banarasi_dupatta.jpeg</image>
+    </product>
+    <product>
+        <name>Punjabi Jutti</name>
+        <price>34.99</price>
+        <description>Hand-embroidered Punjabi juttis for ethnic charm.</description>
+        <image>images/accessory_punjabi_jutti.jpeg</image>
+    </product>
+    <product>
+        <name>Temple Jewelry Set</name>
+        <price>89.99</price>
+        <description>Traditional South Indian temple jewelry with divine motifs.</description>
+        <image>images/accessory_temple_jewelry.jpeg</image>
+    </product>
+</products>

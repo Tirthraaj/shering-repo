@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>Banarasi Saree</name>
+        <price>99.99</price>
+        <description>Luxurious Banarasi silk saree with intricate weaving.</description>
+        <image>images/women_banarasi_saree.jpg</image>
+    </product>
+    <product>
+        <name>Chikankari Kurti</name>
+        <price>49.99</price>
+        <description>Elegant Chikankari embroidered kurti, perfect for casual wear.</description>
+        <image>images/women_chikankari_kurti.jpg</image>
+    </product>
+    <product>
+        <name>Lehenga Choli</name>
+        <price>199.99</price>
+        <description>Traditional lehenga choli with exquisite embroidery and zari work.</description>
+        <image>images/women_lehenga_choli.jpg</image>
+    </product>
+    <product>
+        <name>Patiala Suit</name>
+        <price>69.99</price>
+        <description>Beautiful Patiala suit with a comfortable dupatta.</description>
+        <image>images/women_patiala_suit.jpg</image>
+    </product>
+    <product>
+        <name>Designer Gown</name>
+        <price>149.99</price>
+        <description>Floor-length designer gown with a fusion of Indian and Western styles.</description>
+        <image>images/women_designer_gown.jpg</image>
+    </product>
+    <product>
+        <name>Anarkali Suit</name>
+        <price>129.99</price>
+        <description>Royal Anarkali suit with rich embroidery and flare.</description>
+        <image>images/women_anarkali_suit.jpg</image>
+    </product>
+    <product>
+        <name>Kanjivaram Saree</name>
+        <price>249.99</price>
+        <description>Authentic Kanjivaram silk saree with a vibrant color palette.</description>
+        <image>images/women_kanjivaram_saree.jpg</image>
+    </product>
+    <product>
+        <name>Palazzo Set</name>
+        <price>59.99</price>
+        <description>Trendy palazzo set with a modern and stylish look.</description>
+        <image>images/women_palazzo_set.jpg</image>
+    </product>
+</products>
+
